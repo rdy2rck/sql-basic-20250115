@@ -41,7 +41,7 @@ datetime_c DATETIME
 -- 사용자 생성
 -- CREATE USER '사용자명'@'접속IP' IDENTIFIED BY '비밀번호';
 CREATE USER 'developer'@'%' IDENTIFIED BY 'qwer1234';
-CREATE USER 'guest'@'%' IDENTIFIED BY 'qwer1234';
+CREATE USER 'guest'@'192.168.1.101' IDENTIFIED BY 'qwer1234';
 
 -- DROP : 데이터 구조(Schemas)를 삭제할 때 사용하는 명령어
 -- DROP 구조이름(Schemas명)
