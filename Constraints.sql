@@ -96,6 +96,7 @@ ADD CONSTRAINT not_null_table_uq UNIQUE (null_column);
 
 -- FOREIGN KEY 제약조건 : 특정 컬럼을 다른 테이블 혹은 같은 테이블의 기본키 컬럼과 연결하는 제약
 -- FOREIGN KEY 제약조건이 지정되는 컬럼은 참조하고자 하는 컬럼의 데이터타입과 일치해야 함
+-- FOREIGN KEY 설정 시 중요 : 반드시 참조하고자 하는 컬럼이 PRIMARY KEY가 설정되어 있거나 UNIQUE 제약 조건이 있어야 함
 CREATE TABLE fk_table (
 pk_column INT PRIMARY KEY,
 fk_column INT,
