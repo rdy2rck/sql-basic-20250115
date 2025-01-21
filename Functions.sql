@@ -49,7 +49,7 @@ FROM sale;
 -- ex : LOWER('Hello') -> 'hello'
 
 -- REPLACE(문자열, 이전문자열, 바꿀문자열) : 문자열의 특정 문자열을 다른 문자열로 치환
--- ex : REP:ACE('I am Ironman', 'Ironman', 'Hulk') -> 'I am Hulk'
+-- ex : REPLACE('I am Ironman', 'Ironman', 'Hulk') -> 'I am Hulk'
 
 -- 숫자 함수 : 숫자 연산과 관련된 함수
 
